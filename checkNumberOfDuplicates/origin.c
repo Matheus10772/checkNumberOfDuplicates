@@ -19,7 +19,7 @@ int numDuplicates(int name_count, char** name, int price_count, int* price, int 
 	for (int i = 0; i < name_count; i++) {
 		validIndexArray[i] = i;
 	}
-
+	//
 	for (int j = 0; j < sizeOfValidIndexArray; j++) {
 		if (validIndexArray[j] != -1) {
 			char* currentName = name[validIndexArray[j]];
